@@ -7,8 +7,9 @@
 [![Employer](https://img.shields.io/badge/Employer-Allsafe%20Cybersecurity-007acc?style=flat-square&logo=cisco)](https://github.com/slopgobblercobbler)
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
-[![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20%E2%80%A2%20Quickdraw%20%E2%80%A2%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5](https://img.shields.io/badge/Contributed-AnyPS5%20Core%20Squad-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5)
+[![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-8%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
 </div>
@@ -25,6 +26,7 @@ $ neofetch --user slopgobblercobbler --location Munich
 - **Base:** Munich, Germany
 - **Education:** B.Sc. in Computer Science & Applied Cryptography at **Technical University of Munich (TUM)**, with an exchange semester at **NYU Courant Institute**. Focused on low-level memory forensics, operating system kernels, and side-channel timing attacks.
 - **Experience:** Formerly Junior Security Analyst at **Allsafe Cybersecurity** (monitoring enterprise firewall telemetry, incident response, and root daemons), now independent systems engineer, kernel contributor, and low-level tinkerer.
+- **Current Mission:** Core systems contributor to [`AnyPS5`](https://github.com/boykopovar/AnyPS5) — hardening ELF parsing/relinking bounds, maintaining FreeBSD 11.4 POSIX kernel parity, and advancing Vulkan/SPIR-V recompiler pipelines.
 - **Audio Track:** Mac Quayle synth pulses, dark ambient tape loops, and buffered coffee drips.
 
 ---
@@ -37,6 +39,34 @@ $ neofetch --user slopgobblercobbler --location Munich
 | **Security & Auditing** | TLS Handshake Analysis, Shannon Entropy Scanners, AST Linter Engines, JWT Auditing, GPG Keyrings |
 | **Developer Tooling** | Python, TypeScript, Rust, Go, Custom CLI Guards, ReDoS Profilers & Linters |
 | **DevOps & Infrastructure** | Docker, Kubernetes, Nginx, FreeBSD Jails, GitHub Actions Hardening, Tape Archives |
+
+---
+
+### 🚀 Key Upstream Open-Source Contributions
+
+#### 🎮 [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5)
+*High-assurance modern C++20 contributions to PS5 executable relinking, ELF bounds validation, Vulkan driver execution, and FreeBSD 11.4 POSIX kernel compliance across `libkernel`, `libkernel_sys`, `libSceUserService`, and `libSceAgcDriver`.*
+
+- **Merged Upstream PRs (8 Total):**
+  - **[PR #10805](https://github.com/boykopovar/AnyPS5/pull/10805)**: `fix(libSceUserService)` — Validate logged-in status for user accessibility and age queries.
+  - **[PR #10795](https://github.com/boykopovar/AnyPS5/pull/10795)**: `feat(libSceAgcDriver)` — Comprehensive payload packing coverage in `sceAgcDriverNopDataWritePacket`.
+  - **[PR #10023](https://github.com/boykopovar/AnyPS5/pull/10023)**: `fix(recompiler)` — Platform path separator normalization for shader caches across Linux and Windows.
+  - **[PR #9230](https://github.com/boykopovar/AnyPS5/pull/9230)**: `fix(relinker)` — Relocation type validation during dynamic table extraction.
+  - **[PR #9218](https://github.com/boykopovar/AnyPS5/pull/9218)**: `feat(libkernel)` — Implementation of `setresuid` and `setresgid` syscall emulation.
+  - **[PR #9169](https://github.com/boykopovar/AnyPS5/pull/9169)**: `fix(libkernel)` — Socket address family validation in `bind`.
+  - **[PR #9168](https://github.com/boykopovar/AnyPS5/pull/9168)**: `fix(relinker)` — ELF section header file range bounds verification against input file.
+  - **[PR #8742](https://github.com/boykopovar/AnyPS5/pull/8742)**: `feat(libkernel)` — FreeBSD 11.4 process group management (`setpgid` and `setpgrp`).
+
+- **Active & Approved Work:**
+  - **[PR #11067](https://github.com/boykopovar/AnyPS5/pull/11067)**: `fix(relinker)` — Strict unsigned address overflow checks for narrow DWARF unwind encodings (*Double-Approved by `@MarcZX10` and `@thepoppfish`*).
+  - **[PR #11078](https://github.com/boykopovar/AnyPS5/pull/11078)**: `feat(libkernel)` — POSIX sysconf limits with FreeBSD 11.4 parity (*Approved & Verified*).
+  - **[PR #11087](https://github.com/boykopovar/AnyPS5/pull/11087)**: `fix(libSceUserService)` — Validate login state and presets pointer in `sceUserServiceGetGamePresets` (*Approved*).
+  - **[PR #11086](https://github.com/boykopovar/AnyPS5/pull/11086)**: `fix(agc)` — Multi-submit count overflow guards and null command buffer bounds (*Approved*).
+  - **[PR #10794](https://github.com/boykopovar/AnyPS5/pull/10794)**: `feat(libkernel_sys)` — Initial thread detection export `scePthreadMain` via `pthread_main_np` (*Independently Verified on Windows*).
+
+#### 📦 Other Upstream Contributions
+- [`martinkozle/excaliagent`](https://github.com/martinkozle/excaliagent) — Spatial Excalidraw board bundle optimization, CDN font delivery, and package lightweighting.
+- [`lingdojo/kana-dojo`](https://github.com/lingdojo/kana-dojo) — Minimalist Japanese learning platform dataset expansions and localized proverb additions.
 
 ---
 
@@ -87,15 +117,6 @@ I engineer strict, zero-dependency developer guardrails, schema checkers, and CL
 - [`ts-alias-resolver`](https://github.com/slopgobblercobbler/ts-alias-resolver) — High-performance TypeScript path alias resolver and `tsconfig` compiler options auditor.
 - [`glob-sentinel-cli`](https://github.com/slopgobblercobbler/glob-sentinel-cli) — Fast file glob pattern validator and traversal path security auditor.
 - [`slopgobblercobbler`](https://github.com/slopgobblercobbler/slopgobblercobbler) — Special GitHub developer profile showcase, real-time telemetry dashboard & workflow portfolio.
-
----
-
-### 🚀 Key Upstream Open-Source Contributions
-
-- [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5) — High-assurance C++20 contributions to PS5 executable relinking, bounds validation, and FreeBSD 11.4 POSIX compliance for `libkernel` / `libkernel_sys`.
-  - **Active Work:** [PR #8742 (`feat(libkernel): implement setpgid and setpgrp`)](https://github.com/boykopovar/AnyPS5/pull/8742) — Implementing FreeBSD 11.4 process group syscall parity (`sys_setpgid` / `sys_setpgrp`), actively refining session leader (`SESS_LEADER`) `EPERM` check ordering and zero inline comment policy per reviewer specifications.
-- [`martinkozle/excaliagent`](https://github.com/martinkozle/excaliagent) — Spatial Excalidraw board bundle optimization, CDN font delivery, and package lightweighting.
-- [`lingdojo/kana-dojo`](https://github.com/lingdojo/kana-dojo) — Minimalist Japanese learning platform dataset expansions and localized proverb additions.
 
 ---
 
