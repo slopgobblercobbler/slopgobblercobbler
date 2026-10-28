@@ -8,7 +8,7 @@
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
 [![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-17%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-20%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
@@ -47,7 +47,8 @@ $ neofetch --user slopgobblercobbler --location Munich
 #### 🎮 [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5)
 *High-assurance modern C++20 contributions to PS5 executable relinking, ELF bounds validation, Vulkan driver execution, and FreeBSD 11.4 POSIX kernel compliance across `libkernel`, `libkernel_sys`, `libSceUserService`, and `libSceAgcDriver`.*
 
-- **Merged Upstream PRs (17 Total):**
+- **Merged Upstream PRs (20 Total):**
+ix(libSceUserService) — Validate user in sceUserServiceGetPlatformPrivacyWs1.
   - **[PR #11086](https://github.com/boykopovar/AnyPS5/pull/11086)**: `fix(agc)` — Validate multi-submit count overflow and null command buffers.
   - **[PR #11083](https://github.com/boykopovar/AnyPS5/pull/11083)**: `fix(libSceSaveData.native)` — Return `SAVE_DATA_ERROR_PARAMETER` on null argument in `sceSaveDataConvert`.
   - **[PR #11080](https://github.com/boykopovar/AnyPS5/pull/11080)**: `fix(libSceSaveData.native)` — Validate null arguments in `sceSaveDataDirNameSearchPs4` and `sceSaveDataMount`.
@@ -75,8 +76,6 @@ $ neofetch --user slopgobblercobbler --location Munich
   - **[PR #12164](https://github.com/boykopovar/AnyPS5/pull/12164)**: `fix(agc)` — Remap `B8G8R8A8_SNORM` color target format to guest format 57.
   - **[PR #12163](https://github.com/boykopovar/AnyPS5/pull/12163)**: `fix(libkernel)` — Classify guest sockets and align fcntl error precedence on Windows.
   - **[PR #12016](https://github.com/boykopovar/AnyPS5/pull/12016)**: `test(libSceLibcInternal)` — Cover `fstatvfs` error precedence and descriptor boundaries.
-  - **[PR #12015](https://github.com/boykopovar/AnyPS5/pull/12015)**: `test(relinker)` — Add UTF-8 validation and JSON escaping tests for call registry writer.
-  - **[PR #12014](https://github.com/boykopovar/AnyPS5/pull/12014)**: `test(libSceSaveData.native)` — Cover cancel and prepare for transferring unimplemented stubs.
   - **[PR #12009](https://github.com/boykopovar/AnyPS5/pull/12009)**: `test(relinker)` — Add bounds and termination tests for dynamic tags and segment reading.
   - **[PR #12007](https://github.com/boykopovar/AnyPS5/pull/12007)**: `test(libSceInvitationDialog)` — Cover uninitialized and terminated argument validation.
   - **[PR #11993](https://github.com/boykopovar/AnyPS5/pull/11993)**: `fix(relinker)` — Validate program header table bounds before reading.
@@ -84,7 +83,6 @@ $ neofetch --user slopgobblercobbler --location Munich
   - **[PR #11091](https://github.com/boykopovar/AnyPS5/pull/11091)**: `fix(libSceSaveDataDialog.native)` — Validate param size in `sceSaveDataDialogOpen` and condense debt entry.
   - **[PR #11087](https://github.com/boykopovar/AnyPS5/pull/11087)**: `fix(libSceUserService)` — Validate user login status in `sceUserServiceGetGamePresets`.
   - **[PR #11075](https://github.com/boykopovar/AnyPS5/pull/11075)**: `fix(agc)` — Validate pipeline cache header format and empty cache paths.
-  - **[PR #11071](https://github.com/boykopovar/AnyPS5/pull/11071)**: `fix(libSceUserService)` — Validate user in `sceUserServiceGetPlatformPrivacyWs1`.
   - **[PR #10803](https://github.com/boykopovar/AnyPS5/pull/10803)**: `fix(shader)` — Validate SPIR-V instruction word count boundaries and phi patching.
   - **[PR #10800](https://github.com/boykopovar/AnyPS5/pull/10800)**: `fix(libSceAgcDriver)` — Handle failed shader request dumps and uncapped skips.
 
