@@ -177,7 +177,7 @@ I engineer strict, zero-dependency developer guardrails, schema checkers, and CL
 - [`git-conflict-resolver-ai`](https://github.com/slopgobblercobbler/git-conflict-resolver-ai) — AI-assisted AST 3-way merge conflict resolver and semantic diff analyzer.
 
 #### 🧊 Minecraft (Fabric) Mods, Toolkits & In-Game Systems
-- [`balls-client`](https://github.com/slopgobblercobbler/balls-client) — The ultimate 570+ module standalone client for Minecraft 1.20–26.3: tactical HUD, 3D sonar & container radar, atomic inventory sorting, schematic holograms, macros, and telemetry.
+- [`balls-client`](https://github.com/slopgobblercobbler/balls-client) — The ultimate 620+ module standalone client for Minecraft 1.20–26.3: tactical HUD, 3D sonar & container radar, atomic inventory sorting, continuous 64-bit Litematica holograms, real-time network telemetry, packet analyzers, macros, and diagnostics.
 - [`schematic-toolkit`](https://github.com/slopgobblercobbler/schematic-toolkit) — Ultimate Minecraft Schematic Swiss Army Knife - parses, inspects, converts, swaps palettes, and calculates materials for `.litematic`, `.schem`, and `.nbt`.
 - [`litematica-printer-pro`](https://github.com/slopgobblercobbler/litematica-printer-pro) — High-performance Litematica schematic printer with smart directional rotation, note block pitch tuning, and redstone state cycling (Minecraft 1.20.1 - 26.3).
 - [`vault-finder-pro`](https://github.com/slopgobblercobbler/vault-finder-pro) — Ultimate client-side container & shulker search engine with 3D in-world radar highlights, instant item search, and quick deposit tools (Fabric Minecraft 1.20.1 - 26.3).
