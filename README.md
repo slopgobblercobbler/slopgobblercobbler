@@ -67,6 +67,7 @@ $ neofetch --user slopgobblercobbler --location Munich
   - **[PR #7564](https://github.com/boykopovar/AnyPS5/pull/7564)**: `fix(libSceAppContent)` — Return `NOT_MOUNTED` for invalid download mount point.
 
 - **Active & Open PR Pipeline:**
+  - **[PR #12176](https://github.com/boykopovar/AnyPS5/pull/12176)**: ix(relinker) — Validate text section range and patch offset bounds in PLT compactor.
   - **[PR #12171](https://github.com/boykopovar/AnyPS5/pull/12171)**: ix(agc) — Eliminate duplicated read counters in pipelined draw reports (#10756).
   - **[PR #12170](https://github.com/boykopovar/AnyPS5/pull/12170)**: ix(libkernel) — Validate sigsuspend mask pointer and return EFAULT for FreeBSD 11.4 compliance.
   - **[PR #12166](https://github.com/boykopovar/AnyPS5/pull/12166)**: ix(relinker) — Validate bounds and preserve displacement patterns in ReadRelativeTableTargets.
