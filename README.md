@@ -8,7 +8,7 @@
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
 [![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-20%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-22%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
@@ -47,8 +47,12 @@ $ neofetch --user slopgobblercobbler --location Munich
 #### 🎮 [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5)
 *High-assurance modern C++20 contributions to PS5 executable relinking, ELF bounds validation, Vulkan driver execution, and FreeBSD 11.4 POSIX kernel compliance across `libkernel`, `libkernel_sys`, `libSceUserService`, and `libSceAgcDriver`.*
 
-- **Merged Upstream PRs (20 Total):**
-ix(libSceUserService) — Validate user in sceUserServiceGetPlatformPrivacyWs1.
+- **Merged Upstream PRs (22 Total):**
+  - **[PR #12166](https://github.com/boykopovar/AnyPS5/pull/12166)**: `fix(relinker)` — Validate bounds and preserve displacement patterns in ReadRelativeTableTargets.
+  - **[PR #12015](https://github.com/boykopovar/AnyPS5/pull/12015)**: `test(relinker)` — Add UTF-8 validation and JSON escaping tests.
+  - **[PR #12014](https://github.com/boykopovar/AnyPS5/pull/12014)**: `test(libSceSaveData.native)` — Cover cancel and prepare for transactional save operations.
+  - **[PR #11071](https://github.com/boykopovar/AnyPS5/pull/11071)**: `fix(libSceUserService)` — Validate user in `sceUserServiceGetPlatformPrivacyWs1`.
+  - **[PR #10800](https://github.com/boykopovar/AnyPS5/pull/10800)**: `fix(libSceAgcDriver)` — Handle failed shader request dumps and buffer overflows.
   - **[PR #11086](https://github.com/boykopovar/AnyPS5/pull/11086)**: `fix(agc)` — Validate multi-submit count overflow and null command buffers.
   - **[PR #11083](https://github.com/boykopovar/AnyPS5/pull/11083)**: `fix(libSceSaveData.native)` — Return `SAVE_DATA_ERROR_PARAMETER` on null argument in `sceSaveDataConvert`.
   - **[PR #11080](https://github.com/boykopovar/AnyPS5/pull/11080)**: `fix(libSceSaveData.native)` — Validate null arguments in `sceSaveDataDirNameSearchPs4` and `sceSaveDataMount`.
@@ -68,11 +72,10 @@ ix(libSceUserService) — Validate user in sceUserServiceGetPlatformPrivacyWs1.
   - **[PR #7564](https://github.com/boykopovar/AnyPS5/pull/7564)**: `fix(libSceAppContent)` — Return `NOT_MOUNTED` for invalid download mount point.
 
 - **Active & Open PR Pipeline:**
-  - **[PR #12506](https://github.com/boykopovar/AnyPS5/pull/12506)**: eat(libkernel_sys) — Implement scePthreadTimedjoin with timeout semantics and unit tests.
-  - **[PR #12176](https://github.com/boykopovar/AnyPS5/pull/12176)**: ix(relinker) — Validate text section range and patch offset bounds in PLT compactor.
-  - **[PR #12171](https://github.com/boykopovar/AnyPS5/pull/12171)**: ix(agc) — Eliminate duplicated read counters in pipelined draw reports (#10756).
-  - **[PR #12170](https://github.com/boykopovar/AnyPS5/pull/12170)**: ix(libkernel) — Validate sigsuspend mask pointer and return EFAULT for FreeBSD 11.4 compliance.
-  - **[PR #12166](https://github.com/boykopovar/AnyPS5/pull/12166)**: ix(relinker) — Validate bounds and preserve displacement patterns in ReadRelativeTableTargets.
+  - **[PR #12506](https://github.com/boykopovar/AnyPS5/pull/12506)**: feat(libkernel_sys) — Implement scePthreadTimedjoin with timeout semantics and unit tests.
+  - **[PR #12176](https://github.com/boykopovar/AnyPS5/pull/12176)**: fix(relinker) — Validate text section range and patch offset bounds in PLT compactor.
+  - **[PR #12171](https://github.com/boykopovar/AnyPS5/pull/12171)**: fix(agc) — Eliminate duplicated read counters in pipelined draw reports (#10756).
+  - **[PR #12170](https://github.com/boykopovar/AnyPS5/pull/12170)**: fix(libkernel) — Validate sigsuspend mask pointer and return EFAULT for FreeBSD 11.4 compliance.
   - **[PR #12165](https://github.com/boykopovar/AnyPS5/pull/12165)**: `fix(libSceUserService)` — Validate user login status in `sceUserServiceGetNpAccountId`.
   - **[PR #12164](https://github.com/boykopovar/AnyPS5/pull/12164)**: `fix(agc)` — Remap `B8G8R8A8_SNORM` color target format to guest format 57.
   - **[PR #12163](https://github.com/boykopovar/AnyPS5/pull/12163)**: `fix(libkernel)` — Classify guest sockets and align fcntl error precedence on Windows.
@@ -174,7 +177,7 @@ I engineer strict, zero-dependency developer guardrails, schema checkers, and CL
 - [`git-conflict-resolver-ai`](https://github.com/slopgobblercobbler/git-conflict-resolver-ai) — AI-assisted AST 3-way merge conflict resolver and semantic diff analyzer.
 
 #### 🧊 Minecraft (Fabric) Mods, Toolkits & In-Game Systems
-- [alls-client](https://github.com/slopgobblercobbler/balls-client) — The ultimate 500+ module standalone client for Minecraft 1.20–26.3: tactical HUD, 3D sonar & container radar, atomic inventory sorting, schematic holograms, macros, and telemetry.
+- [`balls-client`](https://github.com/slopgobblercobbler/balls-client) — The ultimate 570+ module standalone client for Minecraft 1.20–26.3: tactical HUD, 3D sonar & container radar, atomic inventory sorting, schematic holograms, macros, and telemetry.
 - [`schematic-toolkit`](https://github.com/slopgobblercobbler/schematic-toolkit) — Ultimate Minecraft Schematic Swiss Army Knife - parses, inspects, converts, swaps palettes, and calculates materials for `.litematic`, `.schem`, and `.nbt`.
 - [`litematica-printer-pro`](https://github.com/slopgobblercobbler/litematica-printer-pro) — High-performance Litematica schematic printer with smart directional rotation, note block pitch tuning, and redstone state cycling (Minecraft 1.20.1 - 26.3).
 - [`vault-finder-pro`](https://github.com/slopgobblercobbler/vault-finder-pro) — Ultimate client-side container & shulker search engine with 3D in-world radar highlights, instant item search, and quick deposit tools (Fabric Minecraft 1.20.1 - 26.3).
