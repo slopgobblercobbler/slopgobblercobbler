@@ -68,6 +68,7 @@ ix(libSceUserService) — Validate user in sceUserServiceGetPlatformPrivacyWs1.
   - **[PR #7564](https://github.com/boykopovar/AnyPS5/pull/7564)**: `fix(libSceAppContent)` — Return `NOT_MOUNTED` for invalid download mount point.
 
 - **Active & Open PR Pipeline:**
+  - **[PR #12506](https://github.com/boykopovar/AnyPS5/pull/12506)**: eat(libkernel_sys) — Implement scePthreadTimedjoin with timeout semantics and unit tests.
   - **[PR #12176](https://github.com/boykopovar/AnyPS5/pull/12176)**: ix(relinker) — Validate text section range and patch offset bounds in PLT compactor.
   - **[PR #12171](https://github.com/boykopovar/AnyPS5/pull/12171)**: ix(agc) — Eliminate duplicated read counters in pipelined draw reports (#10756).
   - **[PR #12170](https://github.com/boykopovar/AnyPS5/pull/12170)**: ix(libkernel) — Validate sigsuspend mask pointer and return EFAULT for FreeBSD 11.4 compliance.
