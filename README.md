@@ -67,6 +67,7 @@ $ neofetch --user slopgobblercobbler --location Munich
   - **[PR #7564](https://github.com/boykopovar/AnyPS5/pull/7564)**: `fix(libSceAppContent)` — Return `NOT_MOUNTED` for invalid download mount point.
 
 - **Active & Open PR Pipeline:**
+  - **[PR #12166](https://github.com/boykopovar/AnyPS5/pull/12166)**: ix(relinker) — Validate bounds and preserve displacement patterns in ReadRelativeTableTargets.
   - **[PR #12165](https://github.com/boykopovar/AnyPS5/pull/12165)**: `fix(libSceUserService)` — Validate user login status in `sceUserServiceGetNpAccountId`.
   - **[PR #12164](https://github.com/boykopovar/AnyPS5/pull/12164)**: `fix(agc)` — Remap `B8G8R8A8_SNORM` color target format to guest format 57.
   - **[PR #12163](https://github.com/boykopovar/AnyPS5/pull/12163)**: `fix(libkernel)` — Classify guest sockets and align fcntl error precedence on Windows.
