@@ -8,7 +8,7 @@
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
 [![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-22%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-40%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
@@ -28,6 +28,21 @@ $ neofetch --user slopgobblercobbler --location Munich
 - **Experience:** Formerly Junior Security Analyst at **Allsafe Cybersecurity** (monitoring enterprise firewall telemetry, incident response, and root daemons), now independent systems engineer, kernel contributor, and low-level tinkerer.
 - **Current Mission:** Core systems contributor to [`AnyPS5`](https://github.com/boykopovar/AnyPS5) — hardening ELF parsing/relinking bounds, maintaining FreeBSD 11.4 POSIX kernel parity, and advancing Vulkan/SPIR-V recompiler pipelines.
 - **Audio Track:** Mac Quayle synth pulses, dark ambient tape loops, and buffered coffee drips.
+
+---
+
+### 🌐 Interactive Web Applications & Live Systems Tools (GitHub Pages)
+
+All systems tools and binary analyzers are client-side static web applications running directly in the browser via GitHub Pages:
+
+| Tool | Live Web Application | Source Repository | Capabilities & Scope |
+| :--- | :--- | :--- | :--- |
+| **DWARF CFI Visualizer** | [slopgobblercobbler.github.io/dwarf-cfi-visualizer](https://slopgobblercobbler.github.io/dwarf-cfi-visualizer/) | [`dwarf-cfi-visualizer`](https://github.com/slopgobblercobbler/dwarf-cfi-visualizer) | Interactive DWARF Call Frame Information, `.eh_frame` CIE/FDE record parser, landing pad matrix, and displacement bounds auditor |
+| **ELF & PRX Binary Inspector** | [slopgobblercobbler.github.io/elf-prx-inspector](https://slopgobblercobbler.github.io/elf-prx-inspector/) | [`elf-prx-inspector`](https://github.com/slopgobblercobbler/elf-prx-inspector) | ELF64 & PlayStation PRX header decoder, segment memory layout mapper, dynamic tag inspector, and relinker bounds validator |
+| **PM4 Packet Stream Decoder** | [slopgobblercobbler.github.io/pm4-packet-decoder](https://slopgobblercobbler.github.io/pm4-packet-decoder/) | [`pm4-packet-decoder`](https://github.com/slopgobblercobbler/pm4-packet-decoder) | AMD GCN/RDNA & PlayStation AGC PM4 type-0/2/3 command packet stream decoder, IT_OPCODE bounds validator, and register analyzer |
+| **FIOS2 Archive & PFS Explorer** | [slopgobblercobbler.github.io/fios2-archive-explorer](https://slopgobblercobbler.github.io/fios2-archive-explorer/) | [`fios2-archive-explorer`](https://github.com/slopgobblercobbler/fios2-archive-explorer) | PlayStation PFS superblock/inode inspector, PSARC archive decoder (Oodle/zlib/LZ4), and libSceFios2 overlay mount simulator |
+| **MIDI to Note Block Studio** | [slopgobblercobbler.github.io/midi-to-noteblock](https://slopgobblercobbler.github.io/midi-to-noteblock/) | [`midi-to-noteblock`](https://github.com/slopgobblercobbler/midi-to-noteblock) | Client-side MIDI file parser, instrument track allocator, polyphonic note block synthesizer, and schematic generator |
+| **MAL Affinity Matrix Explorer** | [slopgobblercobbler.github.io/mal-affinity-explorer](https://slopgobblercobbler.github.io/mal-affinity-explorer/) | [`mal-affinity-explorer`](https://github.com/slopgobblercobbler/mal-affinity-explorer) | Client-side anime/manga score distribution analyzer, taste correlation engine, and pairwise affinity matrix calculator |
 
 ---
 
@@ -90,7 +105,10 @@ $ neofetch --user slopgobblercobbler --location Munich
   - **[PR #10803](https://github.com/boykopovar/AnyPS5/pull/10803)**: `fix(shader)` — Validate SPIR-V instruction word count boundaries and phi patching.
   - **[PR #10800](https://github.com/boykopovar/AnyPS5/pull/10800)**: `fix(libSceAgcDriver)` — Handle failed shader request dumps and uncapped skips.
 
-#### 📦 Other Upstream Contributions
+#### 📦 Other Upstream Open-Source Contributions
+- [`apache/datafusion-sqlparser-rs`](https://github.com/apache/datafusion-sqlparser-rs) — Extensible SQL parser for Rust: statement delimiter preservation, SHOW pattern display, and NULL operator parsing ([PR #2787](https://github.com/apache/datafusion-sqlparser-rs/pull/2787), [PR #2789](https://github.com/apache/datafusion-sqlparser-rs/pull/2789), [PR #2790](https://github.com/apache/datafusion-sqlparser-rs/pull/2790), [PR #2791](https://github.com/apache/datafusion-sqlparser-rs/pull/2791)).
+- [`BurntSushi/bstr`](https://github.com/BurntSushi/bstr) — High-assurance byte string library for Rust: deprecation cleanup ([PR #235](https://github.com/BurntSushi/bstr/pull/235)) and deep community peer reviews on SIMD and pointer safety ([#234](https://github.com/BurntSushi/bstr/pull/234), [#236](https://github.com/BurntSushi/bstr/pull/236), [#237](https://github.com/BurntSushi/bstr/pull/237), [#238](https://github.com/BurntSushi/bstr/pull/238), [#239](https://github.com/BurntSushi/bstr/pull/239)).
+- [`u-root/gobusybox`](https://github.com/u-root/gobusybox) — Multi-call binary compilation framework in Go: code quality and context selector optimizations ([PR #179](https://github.com/u-root/gobusybox/pull/179), [PR #180](https://github.com/u-root/gobusybox/pull/180)).
 - [`martinkozle/excaliagent`](https://github.com/martinkozle/excaliagent) — Spatial Excalidraw board bundle optimization, CDN font delivery, and package lightweighting.
 - [`lingdojo/kana-dojo`](https://github.com/lingdojo/kana-dojo) — Minimalist Japanese learning platform dataset expansions and localized proverb additions.
 
