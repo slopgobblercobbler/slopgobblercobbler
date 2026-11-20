@@ -8,7 +8,7 @@
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
 [![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-40%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-240%2B%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
@@ -19,14 +19,15 @@
 ### 💻 System Telemetry & Background
 
 ```bash
-$ neofetch --user slopgobblercobbler --location Munich
+$ neofetch --user slopgobblercobbler --location Munich --focus systems-security
 ```
 - **Name:** Stephen Cork
 - **Age:** 22
 - **Base:** Munich, Germany
-- **Education:** B.Sc. in Computer Science & Applied Cryptography at **Technical University of Munich (TUM)**, with an exchange semester at **NYU Courant Institute**. Focused on low-level memory forensics, operating system kernels, and side-channel timing attacks.
-- **Experience:** Formerly Junior Security Analyst at **Allsafe Cybersecurity** (monitoring enterprise firewall telemetry, incident response, and root daemons), now independent systems engineer, kernel contributor, and low-level tinkerer.
-- **Current Mission:** Core systems contributor to [`AnyPS5`](https://github.com/boykopovar/AnyPS5) — hardening ELF parsing/relinking bounds, maintaining FreeBSD 11.4 POSIX kernel parity, and advancing Vulkan/SPIR-V recompiler pipelines.
+- **Education:** B.Sc. in Computer Science & Applied Cryptography at **Technical University of Munich (TUM)**, with an exchange semester at **NYU Courant Institute**. Specialized in low-level memory forensics, operating system kernels, and side-channel timing mitigations.
+- **Experience:** Systems & Security Engineer. Formerly Junior Security Analyst at **Allsafe Cybersecurity** (enterprise firewall telemetry, incident response, root daemons); now independent systems engineer, C++20 runtime developer, and kernel hacker.
+- **Milestone Highlight:** **240+ Merged PRs** on [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5) — pioneering static ELF64 executable relinking, DWARF CFI unwind dispatch, FreeBSD 11.4 POSIX kernel compliance (`libkernel`/`libkernel_sys`), and Vulkan/SPIR-V translation pipelines.
+- **Current Mission:** Hardening system call boundaries, implementing POSIX synchronization primitives, and delivering deterministic native execution for next-gen binaries.
 - **Audio Track:** Mac Quayle synth pulses, dark ambient tape loops, and buffered coffee drips.
 
 ---
@@ -69,7 +70,7 @@ All systems tools and binary analyzers are client-side static web applications r
 #### 🎮 [`boykopovar/AnyPS5`](https://github.com/boykopovar/AnyPS5)
 *High-assurance modern C++20 contributions to PS5 executable relinking, ELF bounds validation, Vulkan driver execution, and FreeBSD 11.4 POSIX kernel compliance across `libkernel`, `libkernel_sys`, `libSceUserService`, and `libSceAgcDriver`.*
 
-- **Merged Upstream PRs (22 Total):**
+- **Merged Upstream PRs (240+ Total — Selected Highlights):**
   - **[PR #12166](https://github.com/boykopovar/AnyPS5/pull/12166)**: `fix(relinker)` — Validate bounds and preserve displacement patterns in ReadRelativeTableTargets.
   - **[PR #12015](https://github.com/boykopovar/AnyPS5/pull/12015)**: `test(relinker)` — Add UTF-8 validation and JSON escaping tests.
   - **[PR #12014](https://github.com/boykopovar/AnyPS5/pull/12014)**: `test(libSceSaveData.native)` — Cover cancel and prepare for transactional save operations.
