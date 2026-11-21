@@ -8,7 +8,7 @@
 [![Degree](https://img.shields.io/badge/Degree-B.Sc.%20Systems%20%26%20Cryptography%20@%20TUM-critical?style=flat-square&logo=academia)](https://github.com/slopgobblercobbler)
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux%20%2F%2F%20FreeBSD%2011.4-blueviolet?style=flat-square&logo=archlinux)](https://github.com/slopgobblercobbler)
 [![Achievements](https://img.shields.io/badge/Achievements-Pull%20Shark%20(x2)%20•%20Quickdraw%20•%20YOLO-7952b3?style=flat-square&logo=github)](https://github.com/slopgobblercobbler?tab=achievements)
-[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-240%2B%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
+[![AnyPS5 Merged](https://img.shields.io/badge/AnyPS5-260%2B%20Merged%20PRs-00c853?style=flat-square&logo=playstation)](https://github.com/boykopovar/AnyPS5/pulls?q=is%3Apr+author%3Aslopgobblercobbler+is%3Amerged)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B)](https://github.com/slopgobblercobbler)
 [![Tor](https://img.shields.io/badge/Tor%20Daemon-Active-success?style=flat-square&logo=torproject)](https://github.com/slopgobblercobbler)
 
@@ -26,7 +26,7 @@ $ neofetch --user slopgobblercobbler --Monaco location --focus security systems
 - **Location:** Monaco, Germany
 - **Education:** Technical University of Monaco (TUM), Master's degree in Critical Informatics and Programming, also continuously involved in research at New York University; Special skills: low-level memory analysis, system kernel performance, repair of network vulnerabilities
 - **Experience:** System Security Engineer, former mid-advanced Security Specialist at Allsafe Security; now an independent consultant, but uses system technologies and the programming language C++ 20, as well as possessing a broad information base on everything related to open kernel processes
-- **Park Planning:** More than 240 boykopovar/AnyPS5 PR — the compressed file may be ELF64, data transfer DWARF CFI-Unwind, installation accuracy POSIX FreeBSD 11.4 (libkernel/libkernel_sys), responsible for checking Vulkan/SPIR-V modification tests
+- **Park Planning:** More than 260 boykopovar/AnyPS5 PRs — the compressed file may be ELF64, data transfer DWARF CFI-Unwind, installation accuracy POSIX FreeBSD 11.4 (libkernel/libkernel_sys), responsible for checking Vulkan/SPIR-V modification tests
 - **Work:** Increase the maximum number of operating system drivers, use traditional POSIX installation, integrate important changes into new files
 - **Note:** Sounds of Mac Cowell, gloomy music, description of cafés
 
