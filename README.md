@@ -19,41 +19,18 @@
 ### 💻 Programs, More Information, Center Hub
 
 ```bash
-$ neofetch --user slopgobblercobbler --Monaco location --focus security systems
-```
-- **Name:** Števensas Kortas
-- **Age:** 22
-- **Location:** Monaco, Germany
-- **Education:** Technical University of Monaco (TUM), Master's degree in Critical Informatics and Programming, also continuously involved in research at New York University; Special skills: low-level memory analysis, system kernel performance, repair of network vulnerabilities
-- **Experience:** System Security Engineer, former mid-advanced Security Specialist at Allsafe Security; now an independent consultant, but uses system technologies and the programming language C++ 20, as well as possessing a broad information base on everything related to open kernel processes
-- **Park Planning:** More than 260 boykopovar/AnyPS5 PRs — the compressed file may be ELF64, data transfer DWARF CFI-Unwind, installation accuracy POSIX FreeBSD 11.4 (libkernel/libkernel_sys), responsible for checking Vulkan/SPIR-V modification tests
-- **Work:** Increase the maximum number of operating system drivers, use traditional POSIX installation, integrate important changes into new files
-- **Note:** Sounds of Mac Cowell, gloomy music, description of cafés
+$neofetch - Classic SlopeCobbler - The best way to protect your Monaco gate
+'
+** Name: ** Steven Scharf
+- **Age:*** I am 22 years old.
+** Location: ** Monaco, Germany
+**Academic program: *** Bachelor's degree in Computer Science from the University of Monaco (TUM) and Master's degree in Design from New York University. The Basics: Advanced Web Search and Profitability
+- ** Education: ** IT security engineer, manager, independent security consultant. However, he specializes in an in-depth knowledge of C20 languages.
+** Working files: ** 260 pv/AniPS5 PR - ELF64, DVARF CFI, FreeBSD 11.4 (libkernel/libkernel_sis), POSIX compliant Vulkan/SPIRV files.
+- ** Action: ** Add the POSIX formatted operating system driver and update the requirements in the new script.
+** Note: ** Maxwell's voice, sad music, lots of food
 
 ---
-
-### 🌐 Programs and system applications (GitHub pages)
-
-A direct double analysis of each tool and program source was provided using GitHub pages and independent web services:
-
-| Instrument | Living Navigator Ritual | Ancient Source Mine | Genuine 51-Hop API Hypertranslated Scope |
-| :--- | :--- | :--- | :--- |
-| **Module Aksimod** | [slopgobblercobbler.github.io/action-doctor](https://slopgobblercobbler.github.io/action-doctor/) | [`action-doctor`](https://github.com/slopgobblercobbler/action-doctor) | Handling of user experience, used in GitHub Actions, to simplify the creation of SHA steps, testing of code executions, and ensuring integration of minimal license. |
-| **Module Cargo** | [slopgobblercobbler.github.io/cargo-doctor](https://slopgobblercobbler.github.io/cargo-doctor/) | [`cargo-doctor`](https://github.com/slopgobblercobbler/cargo-doctor) | Handling of user experience from Rust Cargo.toml files and manuals, provides a list of authors on crates.io and in private projects. |
-| **Module Compose** | [slopgobblercobbler.github.io/compose-doctor](https://slopgobblercobbler.github.io/compose-doctor/) | [`compose-doctor`](https://github.com/slopgobblercobbler/compose-doctor) | Analysis of Docker Compose user, security tests, ensuring container compatibility, and efficient design of service topology in the application. |
-| **Module TOML** | [slopgobblercobbler.github.io/toml-doctor](https://slopgobblercobbler.github.io/toml-doctor/) | [`toml-doctor`](https://github.com/slopgobblercobbler/toml-doctor) | Analysis of TOML 1.0 user, management of PEP 518/621 systems, compatibility tests, and tools for file creation. |
-| **CFI Viewer** | [slopgobblercobbler.github.io/dwarf-cfi-visualizer](https://slopgobblercobbler.github.io/dwarf-cfi-visualizer/) | [`dwarf-cfi-visualizer`](https://github.com/slopgobblercobbler/dwarf-cfi-visualizer) | Provides interactive information when DWARF calls are added, from some CIE/FDE in the .eh_frame file, copyable and workspace. |
-| **ELF and PRX analysis** | [slopgobblercobbler.github.io/elf-prx-inspector](https://slopgobblercobbler.github.io/elf-prx-inspector/) | [`elf-prx-inspector`](https://github.com/slopgobblercobbler/elf-prx-inspector) | Analysis of ELF64 and PRX headers corresponding to PlayStation addresses, showing memory resources, monitoring process flow registers, and testing variable limits. |
-| **Functional PM4 packets** | [slopgobblercobbler.github.io/pm4-packet-decoder](https://slopgobblercobbler.github.io/pm4-packet-decoder/) | [`pm4-packet-decoder`](https://github.com/slopgobblercobbler/pm4-packet-decoder) | Analysis of PM4 data for types 0/2/3 on AMD GCN/RDNA devices and AGC PCR with inspection of the IT_OPCODE variable values to ensure accuracy. |
-| **FIOS2 and PFS files** | [slopgobblercobbler.github.io/fios2-archive-explorer](https://slopgobblercobbler.github.io/fios2-archive-explorer/) | [`fios2-archive-explorer`](https://github.com/slopgobblercobbler/fios2-archive-explorer) | Analysis of variable connections/indexes in the PlayStation PFS file system, selection of PSARC files (Oodle/zlib/LZ4), and interaction with the libSceFios2 interface. |
-| **MIDI for Studio Note Block** | [slopgobblercobbler.github.io/midi-to-noteblock](https://slopgobblercobbler.github.io/midi-to-noteblock/) | [`midi-to-noteblock`](https://github.com/slopgobblercobbler/midi-to-noteblock) | Analysis of client MIDI files, identification of instrument tracks, selection of polyphonic block packets, and generation of pre-associated patterns. |
-| **MAL Explorer compatibility list** | [slopgobblercobbler.github.io/mal-affinity-explorer](https://slopgobblercobbler.github.io/mal-affinity-explorer/) | [`mal-affinity-explorer`](https://github.com/slopgobblercobbler/mal-affinity-explorer) | User-based analysis for anime/manga, compatibility based on popularity, list of compatible couples SMS. |
-| **SPIR-V flow control** | [slopgobblercobbler.github.io/spirv-flow-grapher](https://slopgobblercobbler.github.io/spirv-flow-grapher/) | [`spirv-flow-grapher`](https://github.com/slopgobblercobbler/spirv-flow-grapher) | Study of CFG SPIR-V interactions, analysis of basic blocks, solving complex equations, analysis of screen error code. |
-| **FreeBSD error code list** | [slopgobblercobbler.github.io/freebsd-errno-matrix](https://slopgobblercobbler.github.io/freebsd-errno-matrix/) | [`freebsd-errno-matrix`](https://github.com/slopgobblercobbler/freebsd-errno-matrix) | Database of POSIX FreeBSD 11.4 error codes, reliable search, simulation tool for error codes for mobile apps. |
-| **DualSense background monitoring** | [slopgobblercobbler.github.io/dualsense-haptics-lab](https://slopgobblercobbler.github.io/dualsense-haptics-lab/) | [`dualsense-haptics-lab`](https://github.com/slopgobblercobbler/dualsense-haptics-lab) | Pairing of modules in the background for DualSense gaming controllers, monitoring of user audio apps, network recorder for audio output. |
-
----
-
 ### 🛡️ Basic functions and minimum requirements
 
 | Guild Category | Genuine 51-Hop API Translated Requirements |
