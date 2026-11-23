@@ -2,6 +2,10 @@
 
 <img width="414" height="86" alt="Screenshot 2026-11-23 122537" src="https://github.com/user-attachments/assets/fa002f38-7286-4f82-8432-254792ee52cb" />
 
+I AM SORRY, if my agents commit slop once in a while! They tend to go rogue sometimes. Please bear with them ☺️❤️
+
+
+
 
 # Greetings to the rear, the bruised melon has no receipt at this office. Very pleasant! 👋
 
