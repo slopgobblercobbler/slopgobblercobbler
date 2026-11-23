@@ -1,5 +1,8 @@
 <div align="center">
 
+<img width="414" height="86" alt="Screenshot 2026-11-23 122537" src="https://github.com/user-attachments/assets/fa002f38-7286-4f82-8432-254792ee52cb" />
+
+
 # Greetings to the rear, the bruised melon has no receipt at this office. Very pleasant! 👋
 
 [![Capsule Render Header](https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,4,12,25,30&height=180&section=header&text=Stefan%20Bottle%20Stopper%20//%20Furniture%20%26%20Padlocks&fontSize=26&fontColor=ffffff&animation=fadeIn)](https://github.com/slopgobblercobbler)
