@@ -3,8 +3,6 @@
 
 <img width="517" height="94" alt="image" src="https://github.com/user-attachments/assets/f9bb5732-032f-49c2-8811-497330a370b9" />
 
-ok.
-
 # Greetings to the rear, the bruised melon has no receipt at this office. Very pleasant! 👋
 
 [![Capsule Render Header](https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,4,12,25,30&height=180&section=header&text=Stefan%20Bottle%20Stopper%20//%20Furniture%20%26%20Padlocks&fontSize=26&fontColor=ffffff&animation=fadeIn)](https://github.com/slopgobblercobbler)
